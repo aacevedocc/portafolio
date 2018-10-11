@@ -1,0 +1,14 @@
+#header {
+    position: fixed;
+    height: 50px;
+    display: block;
+    width: 100%;
+    z-index: 9;
+    color: #f2f2f2;
+
+}
+
+.fixed-bottom {
+background-color: #eeeeee
+
+}
