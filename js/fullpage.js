@@ -108,7 +108,7 @@
             anchors:[],
             lockAnchors: false,
             navigation: true,
-            navigationPosition: 'right',
+            navigationPosition: 'left',
             navigationTooltips: [],
             showActiveTooltip: false,
             slidesNavigation: false,
