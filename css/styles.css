@@ -10,3 +10,32 @@
 .bg-light {
     background-color: #233142 !important;
 }
+
+
+.nav-link {
+    color: #ffffff !important;
+}
+
+
+.navbar-nav {
+margin-right: 40px;
+
+}
+
+
+.navbar-brand {
+margin-left: 40px;
+
+}
+
+
+.section {
+
+}
+
+
+h1 {
+color: #ffffff;
+text-align: center;
+
+}

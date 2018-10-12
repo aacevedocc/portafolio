@@ -19,8 +19,8 @@
   <body>
 
 <div id="header">
-    <nav class="navbar navbar-expand navbar-light bg-light">
-          <a class="navbar-brand" href="index.html">Álvaro Acevedo<img src="http://icons.iconarchive.com/icons/graphicloads/100-flat/256/home-icon.png" width="30" height="30" alt="home">
+    <nav class="navbar navbar-expand">
+          <a class="navbar-brand" href="index.html"><img src="./imgs/test.png" width="252" height="40" alt="home">
           </a>
         </nav>
         </div>
@@ -34,29 +34,26 @@
 <script type="text/javascript" src="./js/fullpage.js"></script>
 <script type="text/javascript">
 	var myFullpage = new fullpage('#fullpage', {
-		sectionsColor: ['#455d7a', '#f95959', '#facf5a', 'whitesmoke', '#ccddff']
+		sectionsColor: ['#455d7a', '#f95959', '#facf5a']
 	});
 </script>
 
 </body>
 
-<footer class="fixed-bottom">
-  <div id="header2">
-          <nav class="navbar navbar-expand fixed-bottom navbar-light bg-light">
-          <a class="navbar-brand" href="#">Navigation position</a>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+<footer>
+
+  <div>
+          <nav class="navbar navbar-expand fixed-bottom navbar-light">
+        <div class="collapse navbar-collapse">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">work!</a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">STAPP</a>
-                <a class="dropdown-item" href="#">What2See</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Not UX/UI</a>
-              </div>
+            <li class="nav-item active">
+              <a class="nav-link" href="#section1">work!<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="#">About me<span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#section2">contact<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">about me<span class="sr-only">(current)</span></a>
             </li>
           </ul>
         </div>
@@ -65,15 +62,3 @@
 </footer>
 
 </html>
-
-
-
-
-
-
-
-
-<!-- Copyright -->
-<div class="footer-copyright text-center py-3">© 2018 Copyright: Álvaro Acevedo</a>
-</div>
-<!-- Copyright -->
