@@ -54,7 +54,7 @@ html {
 
 .fill1 {
     min-height: 96%;
-    background-color: #455d7a;
+    background-color: #455d77;
 }
 
 .fill2 {
@@ -103,5 +103,20 @@ html {
 
 #arrow {
   padding-top: 10px;
-
 }
+
+.dot {
+    height: 50px;
+    width: 120px;
+    background-color: #facf5a;
+    opacity: 0.5;
+    border-radius: 0%;
+    margin-left: 0%;
+    margin-top: 10.8%;
+    position: absolute;
+}
+
+
+
+
+//**save color 7ac9b6
